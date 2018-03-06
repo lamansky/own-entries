@@ -1,0 +1,32 @@
+{
+  "name": "own-entries",
+  "version": "1.0.0",
+  "description": "Like Object.entries(), but includes non-enumerable properties, analogous to Reflect.ownKeys()",
+  "keywords": [
+    "object",
+    "entries"
+  ],
+  "author": "John Lamansky",
+  "license": "MIT",
+  "homepage": "https://github.com/lamansky/own-entries",
+  "repository": "lamansky/own-entries",
+  "main": "index.js",
+  "files": [],
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint-config-lamansky": "^1.0.0",
+    "mocha": "^5.0.1"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "eslintConfig": {
+    "extends": "lamansky",
+    "env": {
+      "mocha": true
+    }
+  }
+}
