@@ -14,8 +14,13 @@ npm i own-entries
 
 The module exports a single function.
 
-**Parameter**: `obj` (object)
-**Return Value**: An array of entries
+### Parameter
+
+`obj` (object)
+
+### Return Value
+
+An array of entries
 
 ## Example
 
