@@ -1,6 +1,6 @@
 # own-entries
 
-Like `Object.entries()`, but includes non-enumerable properties, analogous to `Reflect.ownKeys()`
+Like `Object.entries()`, but includes non-enumerable properties, analogous to `Reflect.ownKeys()`.
 
 ## Installation
 
@@ -20,7 +20,7 @@ The module exports a single function.
 
 ### Return Value
 
-An array of entries
+An array of two-element key-value pair arrays.
 
 ## Example
 
@@ -29,3 +29,8 @@ const ownEntries = require('own-entries')
 
 ownEntries({key: 'value'}) // [['key', 'value']]
 ```
+
+## Related
+
+* [own-values](https://github.com/lamansky/own-values): The “values” version of this module.
+* [entries-array](https://github.com/lamansky/entries-array) / [entries-iterator](https://github.com/lamansky/entries-iterator): Returns an array/iterator of the key-value pairs of an Object, Map, Array, or Typed Array.

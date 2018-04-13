@@ -4,6 +4,8 @@
   "description": "Like Object.entries(), but includes non-enumerable properties, analogous to Reflect.ownKeys()",
   "keywords": [
     "object",
+    "own",
+    "non-enumerable",
     "entries"
   ],
   "author": "John Lamansky",
